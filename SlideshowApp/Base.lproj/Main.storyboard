@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="p0y-at-fCS">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="p0y-at-fCS">
                                 <rect key="frame" x="87" y="348" width="240" height="200"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -78,7 +78,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="hWv-13-AaU">
                     <connections>
-                        <segue destination="suD-GN-vfD" kind="show" id="sw9-Vp-Ejh"/>
+                        <segue destination="suD-GN-vfD" kind="show" id="w6x-ol-2YV"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -97,7 +97,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
-                                    <action selector="backbutton:" destination="suD-GN-vfD" eventType="touchUpInside" id="2ve-ol-wLK"/>
                                     <segue destination="EXc-q5-Gfn" kind="unwind" unwindAction="unwind:" id="hj2-6v-3Ad"/>
                                 </connections>
                             </button>
@@ -118,7 +117,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="P9G-Y3-Y6C"/>
                     <connections>
-                        <outlet property="backbutton" destination="kdk-7D-Uvd" id="Ih5-d6-0P7"/>
                         <outlet property="imageview" destination="1AC-gT-xfa" id="e2c-8X-yLj"/>
                     </connections>
                 </viewController>
