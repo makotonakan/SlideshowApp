@@ -20,10 +20,10 @@ class ViewController: UIViewController {
     
     //画像ファイル
     var imageNames = [
-    "MtFuji.jpg",
-    "Shinkansen.jpg",
-    "summer-beach.jpg",
-    "TokyoTower.jpg",
+    "MtFuji.jpeg",
+    "Shinkansen.jpeg",
+    "summer-beach.jpeg",
+    "TokyoTower.jpeg",
     ]
     
     var showindex = 0

@@ -14,10 +14,10 @@
 		6A51B4B926DFC7CC00838475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A51B4B826DFC7CC00838475 /* Assets.xcassets */; };
 		6A51B4BC26DFC7CC00838475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A51B4BA26DFC7CC00838475 /* LaunchScreen.storyboard */; };
 		6A51B4C426E11AF000838475 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A51B4C326E11AF000838475 /* ResultViewController.swift */; };
-		6A51B4C626E4FE6A00838475 /* MtFuji.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A51B4C526E4FE6A00838475 /* MtFuji.jpeg */; };
-		6A51B4C826E4FE7600838475 /* TokyoTower.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A51B4C726E4FE7600838475 /* TokyoTower.jpeg */; };
-		6A51B4CA26E4FE8400838475 /* summer-beach.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A51B4C926E4FE8400838475 /* summer-beach.jpeg */; };
-		6A51B4CC26E4FE8C00838475 /* Shinkansen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A51B4CB26E4FE8C00838475 /* Shinkansen.jpeg */; };
+		6A51B4D826E5EDE300838475 /* MtFuji.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A51B4D726E5EDE300838475 /* MtFuji.jpeg */; };
+		6A51B4DA26E5EE0400838475 /* Shinkansen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A51B4D926E5EE0400838475 /* Shinkansen.jpeg */; };
+		6A51B4DC26E5EE0A00838475 /* summer-beach.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A51B4DB26E5EE0A00838475 /* summer-beach.jpeg */; };
+		6A51B4DE26E5EE1000838475 /* TokyoTower.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A51B4DD26E5EE1000838475 /* TokyoTower.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +30,10 @@
 		6A51B4BB26DFC7CC00838475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A51B4BD26DFC7CC00838475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A51B4C326E11AF000838475 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		6A51B4C526E4FE6A00838475 /* MtFuji.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MtFuji.jpeg; path = ../../../../MtFuji.jpeg; sourceTree = "<group>"; };
-		6A51B4C726E4FE7600838475 /* TokyoTower.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TokyoTower.jpeg; path = ../../../../TokyoTower.jpeg; sourceTree = "<group>"; };
-		6A51B4C926E4FE8400838475 /* summer-beach.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "summer-beach.jpeg"; path = "../../../../summer-beach.jpeg"; sourceTree = "<group>"; };
-		6A51B4CB26E4FE8C00838475 /* Shinkansen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Shinkansen.jpeg; path = ../../../../Shinkansen.jpeg; sourceTree = "<group>"; };
+		6A51B4D726E5EDE300838475 /* MtFuji.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MtFuji.jpeg; path = ../../../MtFuji.jpeg; sourceTree = "<group>"; };
+		6A51B4D926E5EE0400838475 /* Shinkansen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Shinkansen.jpeg; path = ../../../../Shinkansen.jpeg; sourceTree = "<group>"; };
+		6A51B4DB26E5EE0A00838475 /* summer-beach.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "summer-beach.jpeg"; path = "../../../../summer-beach.jpeg"; sourceTree = "<group>"; };
+		6A51B4DD26E5EE1000838475 /* TokyoTower.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TokyoTower.jpeg; path = ../../../../TokyoTower.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +74,10 @@
 				6A51B4B826DFC7CC00838475 /* Assets.xcassets */,
 				6A51B4BA26DFC7CC00838475 /* LaunchScreen.storyboard */,
 				6A51B4BD26DFC7CC00838475 /* Info.plist */,
-				6A51B4C526E4FE6A00838475 /* MtFuji.jpeg */,
-				6A51B4C726E4FE7600838475 /* TokyoTower.jpeg */,
-				6A51B4C926E4FE8400838475 /* summer-beach.jpeg */,
-				6A51B4CB26E4FE8C00838475 /* Shinkansen.jpeg */,
+				6A51B4D726E5EDE300838475 /* MtFuji.jpeg */,
+				6A51B4D926E5EE0400838475 /* Shinkansen.jpeg */,
+				6A51B4DB26E5EE0A00838475 /* summer-beach.jpeg */,
+				6A51B4DD26E5EE1000838475 /* TokyoTower.jpeg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -141,11 +141,11 @@
 			files = (
 				6A51B4BC26DFC7CC00838475 /* LaunchScreen.storyboard in Resources */,
 				6A51B4B926DFC7CC00838475 /* Assets.xcassets in Resources */,
-				6A51B4C826E4FE7600838475 /* TokyoTower.jpeg in Resources */,
-				6A51B4CC26E4FE8C00838475 /* Shinkansen.jpeg in Resources */,
-				6A51B4C626E4FE6A00838475 /* MtFuji.jpeg in Resources */,
-				6A51B4CA26E4FE8400838475 /* summer-beach.jpeg in Resources */,
+				6A51B4D826E5EDE300838475 /* MtFuji.jpeg in Resources */,
 				6A51B4B726DFC7CB00838475 /* Main.storyboard in Resources */,
+				6A51B4DC26E5EE0A00838475 /* summer-beach.jpeg in Resources */,
+				6A51B4DE26E5EE1000838475 /* TokyoTower.jpeg in Resources */,
+				6A51B4DA26E5EE0400838475 /* Shinkansen.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
